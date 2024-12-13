@@ -1,0 +1,107 @@
+/* Reset and general body styling */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #8b4513;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+/* Main container styling */
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #8b4513;
+    margin-bottom: 30px;
+}
+
+/* Section styling for each flavor */
+section {
+    background-color: pink;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for each flavor's title */
+h2 {
+    font-size: 1.8rem;
+    color: violet;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+/* Different background colors for each flavor */
+section:nth-child(2) {
+    background-color: #e6f2ff;
+}
+
+section:nth-child(3) {
+    background-color: #e6f2ff;
+}
+
+section:nth-child(4) {
+    background-color: #e6f2ff;
+}
+
+section:nth-child(5) {
+    background-color: #e6f2ff;
+}
+
+section:nth-child(6) {
+    background-color: #e6f2ff;
+}
+
+/* Styling for the ingredient list */
+.ingredients {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.ingredients li {
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 5px 0;
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+.ingredients li:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    font-size: 1rem;
+    color: black;
+    margin-top: 20px;
+}
+
+footer a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

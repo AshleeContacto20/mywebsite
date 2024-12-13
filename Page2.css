@@ -1,0 +1,91 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-circle;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: pink;
+}
+
+/* Header styling */
+header {
+    background-color: pastel; /* Donut-themed violet color */
+    color: #8b4513;
+    padding: 1.5em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Navigation styling */
+nav {
+    background-color: white;
+    color: violet;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: violet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Section styling */
+section {
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 800px;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    background-color: #e6f2ff;
+}
+
+#about {
+    background-color:   #e6f2ff;
+}
+
+#menu {
+    background-color:   #e6f2ff;
+}
+
+#contact {
+    background-color:  #e6f2ff;
+}
+
+/* Heading styling */
+h1, h2 {
+    color: #8b4513;
+}
+
+}
+
+nav ul {
+    justify-content: center;
+    color: violet;
+}

@@ -1,0 +1,174 @@
+/* General Reset */
+body, h1, h2, h3, p, blockquote, cite, a, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    color: #8b4513;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Section Styling */
+header {
+    background-color: white;
+    color: #8b4513;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-container p {
+    font-size: 1.2em;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #fff5e6; 
+    background-size: cover;
+    background-position: center;
+    color: #8b4513;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #e6f2ff;
+    color: #8b4513;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color:  #e6f2f; 
+}
+
+/* Flavors Section */
+.flavors {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: pink;
+}
+
+.flavors h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.flavor-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flavor-card {
+    background-color:  #e6f2f;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.flavor-card h3 {
+    font-size: 1.8em;
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+
+.flavor-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #fff5e6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: violet;
+}
+
+cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #8b4513;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: pink;
+    color: #8b4513;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #e6f2ff;
+    color: #8b4513;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+nav ul {
+    text-align: center;
+    color: black;
+}
